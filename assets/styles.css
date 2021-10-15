@@ -28,7 +28,7 @@ body {
   align-items: center;
   width: 100%;
   margin: 0 20px;
-  max-width: 950px;
+  max-width: 1000px;
 }
 
 .header__links {
@@ -51,6 +51,7 @@ body {
   justify-content: center;
   background: #1F2937;
   color: white;
+  padding: 12px 0;
 }
 
 .content-top__container {
@@ -59,7 +60,7 @@ body {
   align-items: center;
   margin: 0 20px;
   width: 100%;
-  max-width: 950px;
+  max-width: 1000px;
 }
 
 .content-top h1 {
@@ -104,8 +105,18 @@ body {
 
 .content-images__content {
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
   flex-flow: row wrap;
   gap: 30px;
+}
+
+.content-images__field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0;
 }
 
 .content-images__image {
@@ -115,9 +126,14 @@ body {
 
 .content-images__text {
   color: #666666;
-  font-weight: 400;
   text-align: center;
   margin-top: 5px;
+}
+
+.content-images__body {
+  color: #666666;
+  font-weight: 500px;
+  text-align: center;
 }
 
 .content-quote {
@@ -125,7 +141,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 80px 20%;
+  padding: 50px 20%;
+  gap: 50px;
   background: #E5E7EB;
 }
 
@@ -133,6 +150,11 @@ body {
   displaY: flex;
   flex-direction: column;
   max-width: 600px;
+}
+
+.content-quote__title {
+  font-size: 1.8em;
+  color: #1F2937;
 }
 
 .content-quote__text {
@@ -143,8 +165,10 @@ body {
 
 .content-quote__author {
   align-self: flex-end;
-  font-size: 1.1em;
+  font-size: 1.3em;
   color: #1F2937;
+  margin: 10px 0;
+  margin-right: 20px;
 }
 
 .content-bottombutton {
@@ -189,14 +213,18 @@ body {
   background: #1F2937;
   color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 25px 0;
 }
 
+.footer div {
+  text-align: center;
+}
+
 .footer a {
   color: #3B82F6;
-  padding: 0 5px;
 }
 
 a {
