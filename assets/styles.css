@@ -330,6 +330,10 @@ a {
     height: 340px;
   }
 
+  .content-images__content {
+    gap: 8px;
+  }
+
   .header__items {
     justify-content: flex-start;
     margin: 10px 20px;
@@ -346,6 +350,7 @@ a {
 
   .content-bottombutton__container {
     justify-content: center;
+    width: 80%;
   }
 
   .header__right {
@@ -356,6 +361,7 @@ a {
     margin: 0 10px;
     font-size: 1.1em;
     color: #1F2937;
+    padding: 0px 10px;
   }
 
   .content-quote__author {
@@ -376,7 +382,4 @@ a {
     margin-left: 10px;
     margin-right: 10px;
   }
-
-  * { outline: 1px red solid !important; visibility: visible !important }
-  
 }
